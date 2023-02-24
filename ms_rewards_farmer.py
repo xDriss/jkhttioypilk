@@ -1472,25 +1472,19 @@ def sendToDiscord(message):
         prRed("[ERROR] Could not send report to Discord.\n")
     
 def prRed(prt):
-    print(f"\033[91m{prt}\033[00m")
+    print("")
 def prGreen(prt):
-    print(f"\033[92m{prt}\033[00m")
+    print("")
 def prYellow(prt):
-    print(f"\033[93m{prt}\033[00m")
+    print("")
 def prBlue(prt):
-    print(f"\033[94m{prt}\033[00m")
+    print("")
 def prPurple(prt):
-    print(f"\033[95m{prt}\033[00m")
+    print("")
 
 def logo():
-    prRed("""
-    ███╗   ███╗███████╗    ███████╗ █████╗ ██████╗ ███╗   ███╗███████╗██████╗ 
-    ████╗ ████║██╔════╝    ██╔════╝██╔══██╗██╔══██╗████╗ ████║██╔════╝██╔══██╗
-    ██╔████╔██║███████╗    █████╗  ███████║██████╔╝██╔████╔██║█████╗  ██████╔╝
-    ██║╚██╔╝██║╚════██║    ██╔══╝  ██╔══██║██╔══██╗██║╚██╔╝██║██╔══╝  ██╔══██╗
-    ██║ ╚═╝ ██║███████║    ██║     ██║  ██║██║  ██║██║ ╚═╝ ██║███████╗██║  ██║
-    ╚═╝     ╚═╝╚══════╝    ╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝╚══════╝╚═╝  ╚═╝""")
-    prPurple("            by @Charlesbel upgraded by @Farshadz1997        version 2.1\n")
+    prRed("""""")
+    prPurple("")
 
 try:
     account_path = Path(__file__).parent / 'accounts.json'
