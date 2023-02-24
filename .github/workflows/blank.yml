@@ -19,7 +19,7 @@ jobs:
       
     - name: Install Chrome and Chrome driver
       run: |
-        Invoke-WebRequest -Uri 'https://dl.google.com/chrome/win/stable/googlechromestandaloneenterprise64.msi' -OutFile 'chrome.msi'
+        Invoke-WebRequest -Uri 'https://dl.google.com/tag/s/defaultbrowser/edgedl/chrome/install/GoogleChromeStandaloneEnterprise64.msi' -OutFile 'chrome.msi'
         Start-Process msiexec.exe -Wait -ArgumentList '/i chrome.msi /quiet /norestart'
         Invoke-WebRequest -Uri 'https://chromedriver.storage.googleapis.com/$(curl -s https://chromedriver.storage.googleapis.com/LATEST_RELEASE)/chromedriver_win32.zip' -OutFile 'chromedriver.zip'
         Expand-Archive -Path 'chromedriver.zip' -DestinationPath $env:USERPROFILE
