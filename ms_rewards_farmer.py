@@ -1473,7 +1473,6 @@ def sendToDiscord(message):
         prRed("[ERROR] Could not send report to Discord.\n")
     
 def prRed(prt):
-    print(f"\033[91m{prt}\033[00m")
 def prGreen(prt):
     print(f"\033[92m{prt}\033[00m")
 def prYellow(prt):
@@ -1482,8 +1481,6 @@ def prBlue(prt):
     print(f"\033[94m{prt}\033[00m")
 def prPurple(prt):
     print(f"\033[95m{prt}\033[00m")
-
-def logo():
 
 try:
     account_path = Path(__file__).parent / 'accounts.json'
@@ -1598,7 +1595,7 @@ def main():
     global LANG, GEO, TZ, ARGS
     # show colors in terminal
     os.system('color')
-    logo()
+
     ARGS = argumentParser()
     LANG, GEO, TZ = getCCodeLangAndOffset()
     if ARGS.account_browser:
