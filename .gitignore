@@ -1,0 +1,6 @@
+*.json
+*.txt
+.vscode
+chromedriver.exe
+Profiles
+__pycache__
