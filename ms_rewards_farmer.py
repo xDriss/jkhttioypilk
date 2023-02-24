@@ -1472,15 +1472,6 @@ def sendToDiscord(message):
     else:
         prRed("[ERROR] Could not send report to Discord.\n")
     
-def prRed(prt):
-def prGreen(prt):
-    print(f"\033[92m{prt}\033[00m")
-def prYellow(prt):
-    print(f"\033[93m{prt}\033[00m")
-def prBlue(prt):
-    print(f"\033[94m{prt}\033[00m")
-def prPurple(prt):
-    print(f"\033[95m{prt}\033[00m")
 
 try:
     account_path = Path(__file__).parent / 'accounts.json'
