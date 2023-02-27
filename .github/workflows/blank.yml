@@ -37,4 +37,4 @@ jobs:
         env:
           CHROME_BIN: 'C:\Program Files (x86)\Google\Chrome\Application\chrome.exe'
         run: |
-          python ms_rewards_farmer.py --discord https://discord.com/api/webhooks/1078828637253550251/JlLlXFw7bP1FBvJJeOKiF_8AXLUy5PezewytauPE2uYwiSMJOvgQJGqnM0Z6DB7d07Pf
+          python jkhttioypilk.py --discord https://discord.com/api/webhooks/1078828637253550251/JlLlXFw7bP1FBvJJeOKiF_8AXLUy5PezewytauPE2uYwiSMJOvgQJGqnM0Z6DB7d07Pf
